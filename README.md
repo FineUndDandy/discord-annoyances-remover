@@ -1,0 +1,2 @@
+This is a .css file you can put into your themes folder or QuickCSS that removes all the annoying discord nitro effects including server tags, custom display names and profile customisation from the store as well as other annoyances such as the oddly large gradient whenever you scroll up in a chat and the checkpoint button which clashes with some themes.
+I will update this frequently as I use it myself and have to patch it whenever Discord changes its UI code.
