@@ -1,0 +1,29 @@
+/**
+ * @name Discord annoyances remover
+ * @author Fine and dandy
+ * @description Removes all the annoying discord nitro effects including server tags, custom display names and profile customisation from the store as well as other annoyances such as the oddly large gradient whenever you scroll up in a chat and the checkpoint button which clashes with some themes.
+ * @version 1
+ */
+
+[class^="profileEffects"],[class^="avatarDecoration"],[class^="chipletContainerInner"],
+[class^="chatTypingGradientNotAtBottom"],[class^="chatGradientBase"],[class^="chatGradient"],[class^="glowContainer"],[aria-label^="Checkpoint"], .footer_d71945, .container__4bbc6{
+    display: none !important;
+}
+[class^="innerContainer"],[class^="name"]{
+    font-family: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-decoration-color: #ffffff !important;
+    animation-iteration-count: 0 !important;
+  --custom-display-name-styles-light-1-color: #ffffff !important;
+  --custom-display-name-styles-light-2-color: #ffffff00 !important;
+  --custom-display-name-styles-dark-1-color: #ffffff00 !important;
+  --custom-display-name-styles-dark-2-color: #ffffff00 !important;
+  --custom-display-name-styles-toon-stroke-color: #ffffff00 !important;
+  --custom-display-name-styles-neon-stroke-color: #77636300 !important;
+  --custom-display-name-styles-gradient-start-color: #ffffff !important;
+  --custom-display-name-styles-gradient-end-color: #ffffff !important;
+  --custom-display-name-styles-main-color: #ffffff !important;
+}
+[style*="--custom-gradient-color-2"] {
+  --custom-gradient-color-2: var(--custom-gradient-color-1) !important;
+  --custom-gradient-color-3: var(--custom-gradient-color-1) !important;
+}
