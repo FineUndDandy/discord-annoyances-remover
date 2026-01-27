@@ -9,7 +9,7 @@
 [class^="chatTypingGradientNotAtBottom"],[class^="chatGradientBase"],[class^="chatGradient"],[class^="glowContainer"],[aria-label^="Checkpoint"], [class^="roleIcon"], [aria-label="Send a gift"], .button_e6e74f, .footer_d71945, .container__4bbc6{
     display: none !important;
 }
-[class^="innerContainer"],[class^="name"]{
+[class^="innerContainer"],[class^="name"], [class^="username"]{
     font-family: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     text-decoration-color: #ffffff !important;
     animation-iteration-count: 0 !important;
