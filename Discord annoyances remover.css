@@ -2,11 +2,11 @@
  * @name Discord annoyances remover
  * @author Fine and dandy
  * @description Removes all the annoying discord nitro effects including server tags, custom display names and profile customisation from the store as well as other annoyances such as the oddly large gradient whenever you scroll up in a chat and the checkpoint button which clashes with some themes.
- * @version 1.01
+ * @version 1.03
  */
 
 [class^="profileEffects"],[class^="avatarDecoration"],[class^="chipletContainerInner"],
-[class^="chatTypingGradientNotAtBottom"],[class^="chatGradientBase"],[class^="chatGradient"],[class^="glowContainer"],[aria-label^="Checkpoint"], [class^="roleIcon"], [aria-label="Send a gift"], .button_e6e74f, .footer_d71945, .container__4bbc6{
+[class^="chatTypingGradientNotAtBottom"],[class^="chatGradientBase"],[class^="chatGradient"],[class^="glowContainer"],[aria-label^="Checkpoint"], [class^="roleIcon"],[class^="container_df39b2"], [aria-label="Send a gift"], .button_e6e74f, .footer_d71945, .container__4bbc6{
     display: none !important;
 }
 [class^="innerContainer"],[class^="name"], [class^="username"]{
